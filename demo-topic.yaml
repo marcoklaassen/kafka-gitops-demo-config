@@ -4,7 +4,7 @@ metadata:
   name: demo-topic
   labels:
     strimzi.io/cluster: demo-cluster
-  namespace: openshift-operators
+  namespace: kafka
 spec:
   config:
     retention.ms: 604800000
